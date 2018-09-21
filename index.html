@@ -53,8 +53,7 @@
     <!--<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>-->
     <link rel="stylesheet" href="css/style-form-control.css" />
 
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
 
@@ -157,15 +156,16 @@
     </div>
 </section>
 
-<section class="table-exchange">
+<section class="table-exchange container">
     <div class="row table-content-exchange">
-        <div class="col-sm-5">
+        <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="row  text-center">
-                <div class="col-md-12 ribben">
+                <div class="col-md-12 col-xs-12  ribben">
                     <strong>Currency Exchange Rates <img src="photos/exchange.png" width="50px;" style="margin-top:-10px;"/></strong>
                 </div>
             </div>
-            <table id="table-exchange" class="table table-bordered table-responsive table-hover text-center table-striped table-content">
+            <div class="table-responsive">
+                <table id="table-exchange" class="table table-bordered table-hover text-center table-striped table-content">
                 <thead style="font-size: 1.2em; background: #dad5d2">
                 <tr>
                     <th class="text-center">Currency</th>
@@ -243,15 +243,17 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
             <button class="btn btn-primary pull-right">View All</button>
         </div>
-        <div class="col-sm-5">
+        <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="row text-center">
-                <div class="col-lg-12 ribben">
-                    <strong>Money Transfer Rates <img src="photos/money-transfer.png" width="50px;" style="margin-top:-15px;"/></strong>
+                <div class="col-md-12 col-xs-12 ribben">
+                    <strong style="">Money Transfer Rates <img src="photos/money-transfer.png" width="50px;" style="margin-top:-15px;"/></strong>
                 </div>
             </div>
-            <table class="table table-bordered table-responsive table-hover text-center table-striped" id="table-transfer">
+            <div class="table-responsive">
+                <table class="table table-bordered  table-hover text-center table-striped" id="table-transfer">
                 <thead style="font-size: 1.2em; background: #dad5d2">
                 <tr>
                     <th class="text-center">Currency</th>
@@ -329,6 +331,7 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
             <button class="btn btn-primary pull-right">View All</button>
         </div>
     </div>
@@ -365,7 +368,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" style="margin-bottom: 20px;">
                 <form>
                     <div class="group">
                         <input type="text" required="required"/><span class="highlight"></span><span class="bar"></span>
@@ -376,19 +379,11 @@
                         <label>Email</label>
                     </div>
                     <div class="group">
-                        <input type="password" required="required"/><span class="highlight"></span><span class="bar"></span>
-                        <label>Password</label>
-                    </div>
-                    <div class="group">
-                        <input type="number" required="required"/><span class="highlight"></span><span class="bar"></span>
-                        <label>Number</label>
-                    </div>
-                    <div class="group">
                         <textarea type="textarea" rows="5" required="required"></textarea><span class="highlight"></span><span class="bar"></span>
                         <label>Message</label>
                     </div>
                     <div class="btn-box">
-                        <button class="btn btn-submit" type="submit">submit</button>
+                        <button class="btn btn-main" type="submit">submit</button>
                         <button class="btn btn-cancel" type="button">cancel</button>
                     </div>
                 </form>
@@ -420,7 +415,7 @@
             <div class="col-md-12">
                 &copy; <a href="https://www.cantothemes.com">CantoThemes</a> 2015.
                 <!-- Don't Remove/Edit this. If you remove this you don't have permission to use this template. -->
-                Designed by <a href="https://www.cantothemes.com">CantoThemes</a>
+                Designed by <a href="">CantoThemes</a>
                 <!-- So Please don't remove this -->
             </div>
         </div>

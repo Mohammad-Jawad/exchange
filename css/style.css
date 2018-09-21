@@ -22,6 +22,7 @@ p {
 }
 a {
   color: #4ecdc4;
+  font-family: "Oswald";
   text-decoration: none !important;
   -webkit-transition: color 0.3s;
           transition: color 0.3s;
