@@ -46,12 +46,17 @@
 
     <!-- my own Mahdi import styles -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/slick/slick.css"  type="text/css"/>
+
     <link rel="stylesheet" href="fade/css/styles.css"  type="text/css"/>
-    <link rel="stylesheet" href="fade/dist/aos.css"  type="text/css"/>
+    <!--<link rel="stylesheet" href="fade/dist/aos.css"  type="text/css"/>-->
     <link rel="stylesheet" href="css/hover/hover.css"  type="text/css"/>
     <!--<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>-->
     <link rel="stylesheet" href="css/style-form-control.css" />
+    <link rel="stylesheet" href="css/slick-slider-style.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/slick/style.css"/>
+
 
 
     <script src="js/html5shiv.min.js"></script>
@@ -92,15 +97,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="st-home-unit">
-                    <div class="hero-txt">
-                        <p class="hero-work">Choose the Best</p>
-                        <h2 class="hero-title">BEST Financial Services in Afghanistan</h2>
-                        <!-- <p class="hero-sub-title">We Provide Hight Quality Bootstrap Template</p> -->
-                        <!-- <a href="#" class="btn btn-default btn-lg left-btn">Purchase Now</a> -->
-                        <a href="#" class="btn btn-main btn-lg">Sign UP</a>
-                        <a href="#" class="btn btn-main btn-lg">Sign IN</a>
-                    </div>
+                <div class="slickNormalAdaptive">
+                    <div class="box100 green">100px</div>
+                    <div class="box200 red">200px</div>
+                    <div class="box100 blue">100px</div>
+                    <div class="box100 green">100px</div>
+                    <div class="box100 red">100px</div>
+                    <div class="box100 blue">100px</div>
                 </div>
             </div>
         </div>
@@ -436,11 +439,20 @@
 <script src="js/owl.carousel.js"></script>
 <script src="js/jquery.ajaxchimp.min.js"></script>
 <script src="js/script.js"></script>
-
-<script rel="script" type="javascript" src="fade/dist/aos.js"  />
-<script rel="script" src="css/slick/slick.js"></script>
+<script type="text/javascript" src="css/slick/slick.min.js"></script>
+<script type="text/javascript" src="css/slick/query.js"></script>
+<!--<script rel="script" type="javascript" src="fade/dist/aos.js"  />-->
 <!--<script src="https://unpkg.com/aos@next/dist/aos.js"></script>-->
-
+<script>
+    $(".slickNormalAdaptive").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 2000
+    });
+</script>
 
 <script>
     AOS.init();
