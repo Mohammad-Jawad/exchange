@@ -7,20 +7,43 @@
     <title>Sept - StratUp Landing Page</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,400italic,600,300italic,300|Oswald:400,300,700'
           rel='stylesheet' type='text/css'>
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" >
-    <link rel="stylesheet" href="css/font-awesome.min.css" >
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="css/owl.carousel.css" >
-    <link rel="stylesheet" href="css/owl.theme.css" >
-    <link rel="stylesheet" href="css/owl.transitions.css" >
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
 
-    <link rel="stylesheet" href="css/form-style.css" />
+    <link rel="stylesheet" href="css/form-style.css"/>
     <!-- style font services -->
     <style>
+
+        #table-convertor {
+            padding: 30px;
+            width: 100%;
+
+        }
+
+        #table-convertor td {
+            padding: 10px;
+            padding-left:150px;
+        }
+
+        #table-convertor tr td label{
+            color: #ffffff;
+            font-size: 20px;
+        }
+
         @font-face {
             font-family: AryaPool;
             src: url('fonts/AryaPool.ttf');
+        }
+
+        .lable-cu{
+            color: #ffffff;
         }
 
         #financial {
@@ -45,18 +68,19 @@
     </style>
 
     <!-- my own Mahdi import styles -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css"/>
 
-    <link rel="stylesheet" href="fade/css/styles.css"  type="text/css"/>
+    <link rel="stylesheet" href="fade/css/styles.css" type="text/css"/>
     <!--<link rel="stylesheet" href="fade/dist/aos.css"  type="text/css"/>-->
-    <link rel="stylesheet" href="css/hover/hover.css"  type="text/css"/>
-    <!--<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>-->
-    <link rel="stylesheet" href="css/style-form-control.css" />
-    <link rel="stylesheet" href="css/slick-slider-style.css" />
+    <link rel="stylesheet" href="css/hover/hover.css" type="text/css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="css/style-form-control.css"/>
+    <link rel="stylesheet" href="css/slick-slider-style.css"/>
     <link rel="stylesheet" type="text/css" href="css/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/slick/style.css"/>
-
+    <link rel="stylesheet" type="text/css" href="css/corocial-slider.css"/>
+    <link rel="stylesheet" type="text/css" href="css/news-event.css"/>
 
 
     <script src="js/html5shiv.min.js"></script>
@@ -97,13 +121,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="slickNormalAdaptive">
-                    <div class="box100 green">100px</div>
-                    <div class="box200 red">200px</div>
-                    <div class="box100 blue">100px</div>
-                    <div class="box100 green">100px</div>
-                    <div class="box100 red">100px</div>
-                    <div class="box100 blue">100px</div>
+                <div class="st-home-unit">
+                    <div class="hero-txt">
+                        <p class="hero-work">Web Design - Web Development - UX Design</p>
+                        <h2 class="hero-title" data-aos="fade-up">BEST Financial Services in Afghanistan</h2>
+                        <p class="hero-sub-title" data-aos="fade-up">Start Your Business Journey With Us</p>
+                        <!-- <a href="#" class="btn btn-default btn-lg left-btn">Purchase Now</a> -->
+                        <a href="#" class="btn btn-main btn-lg" data-aos-duration="1000" data-aos="fade-right"
+                           style="margin-right:20px;">Sign UP</a>
+                        <a href="#" class="btn btn-main btn-lg" data-aos-duration="1000" data-aos="fade-left">Sign
+                            IN</a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -121,7 +150,7 @@
                     <p>our services</p>
                 </div>
                 <div class="row">
-                    <div class="col-md-3" >
+                    <div class="col-md-3" data-aos="fade-up" data-aos-duration="1000">
                         <div class="st-feature">
                             <div class="st-feature-icon"><i id="financial">D</i></div>
                             <strong class="st-feature-title">Financial</strong>
@@ -129,7 +158,7 @@
                                 geometria.</p>
                         </div>
                     </div>
-                    <div class="col-md-3" >
+                    <div class="col-md-3" data-aos="fade-up" data-aos-duration="1250">
                         <div class="st-feature">
                             <div class="st-feature-icon"><i id="micro_financial">A</i></div>
                             <strong class="st-feature-title">Micro Financial</strong>
@@ -137,7 +166,7 @@
                                 geometria.</p>
                         </div>
                     </div>
-                    <div class="col-md-3" >
+                    <div class="col-md-3" data-aos="fade-up" data-aos-duration="1450">
                         <div class="st-feature">
                             <div class="st-feature-icon"><i id="consulting">B</i></div>
                             <strong class="st-feature-title">Fincancial Consulting</strong>
@@ -145,7 +174,7 @@
                                 geometria.</p>
                         </div>
                     </div>
-                    <div class="col-md-3" >
+                    <div class="col-md-3" data-aos="fade-up" data-aos-duration="1650">
                         <div class="st-feature">
                             <div class="st-feature-icon"><i id="investment">C</i></div>
                             <strong class="st-feature-title">Investment</strong>
@@ -161,31 +190,34 @@
 
 <section class="table-exchange container">
     <div class="row table-content-exchange">
-        <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="col-md-6 ">
             <div class="row  text-center">
                 <div class="col-md-12 col-xs-12  ribben">
-                    <strong>Currency Exchange Rates <img src="photos/exchange.png" width="50px;" style="margin-top:-10px;"/></strong>
+                    <strong>Currency Exchange Rates <img src="photos/exchange.png" width="50px;"
+                                                         style="margin-top:-10px;"/></strong>
                 </div>
             </div>
-            <div class="table-responsive">
-                <table id="table-exchange" class="table table-bordered table-hover text-center table-striped table-content">
-                <thead style="font-size: 1.2em; background: #dad5d2">
-                <tr>
-                    <th class="text-center">Currency</th>
-                    <th class="text-center">DD/TT Sell</th>
-                    <th class="text-center" style="padding-bottom:-150px;">Bank Note
-                        <table class="table text-center">
-                            <tr style=" background: #dad5d2">
-                                <th class="text-center">We Buy</th>
-                                <th class="text-center">We Sell</th>
-                            </tr>
-                        </table>
-                    </th>
-                </tr>
-                </thead>
-                <tbody>
+            <div class="table-responsive" data-aos="fade-right" data-aos-duration="1000">
+                <table id="table-exchange"
+                       class="table table-sm table-bordered table-hover text-center table-striped table-content"
+                       style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                    <thead style="font-size: 1.2em; background: #dad5d2">
                     <tr>
-                        <td><strong>United state Dollar</strong></td>
+                        <th class="text-center">Currency</th>
+                        <th class="text-center">DD/TT Sell</th>
+                        <th class="text-center" style="padding-bottom:-150px;">Bank Note
+                            <table class="table text-center">
+                                <tr style=" background: #dad5d2">
+                                    <th class="text-center">We Buy</th>
+                                    <th class="text-center">We Sell</th>
+                                </tr>
+                            </table>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><strong>United state Dollar &nbsp;<i class="fa fa-dollar"></i></strong></td>
                         <td>0</td>
                         <td>
                             <table class="table">
@@ -197,7 +229,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><strong>Euro</strong></td>
+                        <td><strong>Euro &nbsp;<i class="fa fa-euro"></i></strong></td>
                         <td>0</td>
                         <td>
                             <table class="table">
@@ -209,7 +241,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><strong>Great Britain Pound</strong></td>
+                        <td><strong>Great Britain Pound &nbsp;<i class="fa fa-gbp"></i></strong></td>
                         <td>0</td>
                         <td>
                             <table class="table">
@@ -221,7 +253,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><strong>Arab Emirate Durham</strong></td>
+                        <td><strong>Arab Emirate Durham <span>د.إ</span></strong></td>
                         <td>0</td>
                         <td>
                             <table class="table">
@@ -233,7 +265,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><strong>Pakistan Rupees</strong></td>
+                        <td><strong>Pakistan Rupees &nbsp;<i class="fa fa-rupee"></i></strong></td>
                         <td>0</td>
                         <td>
                             <table class="table">
@@ -244,36 +276,38 @@
                             </table>
                         </td>
                     </tr>
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
             </div>
-            <button class="btn btn-primary pull-right">View All</button>
+            <button class="btn btn-main pull-right">View All</button>
         </div>
-        <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="col-md-6 ">
             <div class="row text-center">
                 <div class="col-md-12 col-xs-12 ribben">
-                    <strong style="">Money Transfer Rates <img src="photos/money-transfer.png" width="50px;" style="margin-top:-15px;"/></strong>
+                    <strong style="">Money Transfer Rates <img src="photos/money-transfer.png" width="50px;"
+                                                               style="margin-top:-15px;"/></strong>
                 </div>
             </div>
-            <div class="table-responsive">
-                <table class="table table-bordered  table-hover text-center table-striped" id="table-transfer">
-                <thead style="font-size: 1.2em; background: #dad5d2">
-                <tr>
-                    <th class="text-center">Currency</th>
-                    <th class="text-center">DD/TT Sell</th>
-                    <th class="text-center">Bank Note
-                        <table class="table text-center">
-                            <tr style="margin-top:30px;">
-                                <th class="text-center">We Buy</th>
-                                <th class="text-center">We Sell</th>
-                            </tr>
-                        </table>
-                    </th>
-                </tr>
-                </thead>
-                <tbody>
+            <div class="table-responsive" data-aos="fade-left" data-aos-duration="1000">
+                <table class="table table-bordered  table-hover text-center table-striped" id="table-transfer"
+                       style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                    <thead style="font-size: 1.2em; background: #dad5d2">
                     <tr>
-                        <td><strong>United state Dollar</strong></td>
+                        <th class="text-center">Currency</th>
+                        <th class="text-center">DD/TT Sell</th>
+                        <th class="text-center">Bank Note
+                            <table class="table text-center" border="0px;">
+                                <tr style="margin-top:30px;background: #dad5d2">
+                                    <th class="text-center">We Buy</th>
+                                    <th class="text-center">We Sell</th>
+                                </tr>
+                            </table>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><strong>United state Dollar &nbsp;<i class="fa fa-dollar"></i></strong></td>
                         <td>0</td>
                         <td>
                             <table class="table">
@@ -285,7 +319,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><strong>Euro</strong></td>
+                        <td><strong>Euro &nbsp;<i class="fa fa-euro"></i></strong></td>
                         <td>0</td>
                         <td>
                             <table class="table">
@@ -297,7 +331,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><strong>Great Britain Pound</strong></td>
+                        <td><strong>Great Britain Pound <i class="fa fa-gbp"></i></strong></td>
                         <td>0</td>
                         <td>
                             <table class="table">
@@ -309,7 +343,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><strong>Arab Emirate Durham</strong></td>
+                        <td><strong>Arab Emirate Durham &nbsp;<span>د.إ</span></strong></td>
                         <td>0</td>
                         <td>
                             <table class="table">
@@ -321,7 +355,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><strong>Pakistan Rupees</strong></td>
+                        <td><strong>Pakistan Rupees &nbsp;<i class="fa fa-rupee"></i></strong></td>
                         <td>0</td>
                         <td>
                             <table class="table">
@@ -332,10 +366,10 @@
                             </table>
                         </td>
                     </tr>
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
             </div>
-            <button class="btn btn-primary pull-right">View All</button>
+            <button class="btn btn-main pull-right">View All</button>
         </div>
     </div>
 </section>
@@ -355,6 +389,218 @@
 								</span>
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="news-event">
+    <div class="row" style="margin-top:100px;">
+        <div class="col-md-12">
+            <div class="section-title st-center">
+                <p>News Event</p>
+                <h5>All Recent New post</h5>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="padding:70px;">
+        <div class="col-md-3">
+            <!-- Normal Demo-->
+            <div class="column">
+                <div class="demo-title">New Event</div>
+                <!-- Post-->
+                <div class="post-module">
+                    <!-- Thumbnail-->
+                    <div class="thumbnail">
+                        <div class="date">
+                            <div class="day">27</div>
+                            <div class="month">Mar</div>
+                        </div>
+                        <img src="photos/news3.jpg"/>
+                    </div>
+                    <!-- Post Content-->
+                    <div class="post-content">
+                        <div class="category">Photos</div>
+                        <h1 class="title"><a href="#">Fox and ComCast</a></h1>
+                        <h2 class="sub_title">German aircraft manufacturer Volocopter has developed</h2>
+                        <p class="description">Fox and Comcast are about to settle their $36 billion battle for Sky —
+                            here's what to expect</p>
+                        <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-o"></i> 13 Days ago</span>
+                            &nbsp;<span class="pull-right"><a href="#"
+                                                              class="hvr-underline-from-left">Read More &nbsp;<i
+                                    class="fa fa-angle-double-right"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <!-- Normal Demo-->
+            <div class="column">
+                <div class="demo-title">New Event</div>
+                <!-- Post-->
+                <div class="post-module">
+                    <!-- Thumbnail-->
+                    <div class="thumbnail">
+                        <div class="date">
+                            <div class="day">27</div>
+                            <div class="month">Mar</div>
+                        </div>
+                        <img src="photos/news4.jpg"/>
+                    </div>
+                    <!-- Post Content-->
+                    <div class="post-content">
+                        <div class="category">Photos</div>
+                        <h1 class="title"><a href="#">Flying vehicles</a></h1>
+                        <h2 class="sub_title">flying vehicles could transform the way we move around cities .</h2>
+                        <p class="description">Small electric vehicles that fly could be the next form of urban
+                            transport to be adopted by cities and towns worldwide, according to one business..</p>
+                        <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-o"></i> 23 Days ago</span>
+                            &nbsp;<span class="pull-right"><a href="#"
+                                                              class="hvr-underline-from-left">Read More &nbsp;<i
+                                    class="fa fa-angle-double-right"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <!-- Normal Demo-->
+            <div class="column">
+                <div class="demo-title">New Event</div>
+                <!-- Post-->
+                <div class="post-module">
+                    <!-- Thumbnail-->
+                    <div class="thumbnail">
+                        <div class="date">
+                            <div class="day">27</div>
+                            <div class="month">Mar</div>
+                        </div>
+                        <img src="photos/new2.jpg"/>
+                    </div>
+                    <!-- Post Content-->
+                    <div class="post-content">
+                        <div class="category">Photos</div>
+                        <h1 class="title"><a href="#">when you spend $32 on groceries</a></h1>
+                        <h2 class="sub_title">at Acme, Aldi, Trader Joe's and Whole Foods.</h2>
+                        <p class="description">A recent conversation about how much food you can buy at grocery stores
+                            for $32 sparked fierce debates between dozens of Reddit users.</p>
+                        <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-o"></i> 5 Days ago</span>
+                            &nbsp;<span class="pull-right"><a href="#"
+                                                              class="hvr-underline-from-left">Read More &nbsp;<i
+                                    class="fa fa-angle-double-right"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <!-- Normal Demo-->
+            <div class="column">
+                <div class="demo-title">New Event</div>
+                <!-- Post-->
+                <div class="post-module">
+                    <!-- Thumbnail-->
+                    <div class="thumbnail">
+                        <div class="date">
+                            <div class="day">27</div>
+                            <div class="month">Mar</div>
+                        </div>
+                        <img src="photos/news1.jpg"/>
+                    </div>
+                    <!-- Post Content-->
+                    <div class="post-content">
+                        <div class="category">Photos</div>
+                        <h1 class="title"><a>Afghan Business Chamber</a></h1>
+                        <h2 class="sub_title">The city that never sleeps.</h2>
+                        <p class="description">New York, the largest city in the U.S., is an architectural marvel with
+                            plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
+                        <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-o"></i> 6 mins ago</span>
+                            &nbsp;<span class="pull-right"><a href="#"
+                                                              class="hvr-underline-from-left">Read More &nbsp;<i
+                                    class="fa fa-angle-double-right"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="call-2-acction" data-stellar-background-ratio="0.4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sp-title">
+                    <div class="c2a">
+                        <h2>Currency Converter</h2>
+                        <p>Quick Convert your currency</p>
+                    </div>
+                    <form>
+                        <div class="table-responsive">
+                            <table id="table-convertor">
+                                <tr>
+                                    <td>
+                                        <div class="form-group">
+                                            <span class="lable-cu">I have (Currency)</span>
+                                            <select name="ihave" class="form-control" style="width: 300px;">
+                                                <option value="">Select currency</option>
+                                                <option value="1">United States dollar</option>
+                                                <option value="2">Australian dollar</option>
+                                                <option value="3">Chinese yuan</option>
+                                                <option value="4">Indian Rupee</option>
+                                                <option value="5">Euro</option>
+                                                <option value="6">Great Britain Pound</option>
+                                                <option value="7">Arab Emirate Dirham</option>
+                                                <option value="8">Pakistani Rupees</option>
+                                                <option value="9">Iranian Riyal/Toman</option>
+                                                <option value="10">Saudi Riyal</option>
+                                                <option value="11">Canadian Dollar</option>
+                                                <option value="12">Swiss Franc</option>
+                                                <option value="13">Turkish Lira</option>
+                                                <option value="14">Afghani</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <span class="lable-cu">I Want (Currency)</span>
+                                            <select name="ihave" class="form-control" style="width: 300px;">
+                                                <option value="">Select currency</option>
+                                                <option value="1">United States dollar</option>
+                                                <option value="2">Australian dollar</option>
+                                                <option value="3">Chinese yuan</option>
+                                                <option value="4">Indian Rupee</option>
+                                                <option value="5">Euro</option>
+                                                <option value="6">Great Britain Pound</option>
+                                                <option value="7">Arab Emirate Dirham</option>
+                                                <option value="8">Pakistani Rupees</option>
+                                                <option value="9">Iranian Riyal/Toman</option>
+                                                <option value="10">Saudi Riyal</option>
+                                                <option value="11">Canadian Dollar</option>
+                                                <option value="12">Swiss Franc</option>
+                                                <option value="13">Turkish Lira</option>
+                                                <option value="14">Afghani</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="lable-cu">Enter Amount:</span>
+                                        <input class="form-control" placeholder="Enter amount" type="text" style="width: 300px;"/>
+                                    </td>
+                                    <td><strong class="lable-cu">Show Result:</strong></td>
+                                </tr>
+                                <tr>
+                                    <td> <a href="#" class="btn btn-main btn-lg" style="margin-top:50px;">Convert</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </form>
+
+                </div>
             </div>
         </div>
     </div>
@@ -382,44 +628,82 @@
                         <label>Email</label>
                     </div>
                     <div class="group">
-                        <textarea type="textarea" rows="5" required="required"></textarea><span class="highlight"></span><span class="bar"></span>
+                        <textarea type="textarea" rows="5" required="required"></textarea><span
+                            class="highlight"></span><span class="bar"></span>
                         <label>Message</label>
                     </div>
                     <div class="btn-box">
-                        <button class="btn btn-main" type="submit">submit</button>
+                        <button class="btn btn-main" type="submit">Send</button>
                         <button class="btn btn-cancel" type="button">cancel</button>
                     </div>
                 </form>
                 <div id="result-message" role="alert"></div>
             </div>
             <div class="col-md-6">
-                <p>Homines praetore aperiam aegritudine turpe quietus, amorem errore meo horreat triario quantus rectas
-                    tollitur. Infimum audiebamus saluto disciplina praetermittenda, aspernatur vocent firmitatem
-                    contenta eademque ibidem quales efficiat. Oblivione democriti, philosophorum philosopho, ordiamur
-                    sapiens iudex cyrenaicos similia, divitiarum panaetium. Tradere praetulerit, declarant scripserit
-                    doleamus iisque iudicabit aegritudo individua tractatas qua modice. Difficilius loqueretur improbe
-                    aetatis consectetur solis velint, grata quiddam partus occulta delectari maior, theseo eveniunt,
-                    turpius nesciunt amicitias constantia seque, utraque, statu genus scriptorem fugit fuissent duxit,
-                    compluribus primos scaevolam.</p>
-                <address>
-                    <strong>Twitter, Inc.</strong><br>
-                    795 Folsom Ave, Suite 600<br>
-                    San Francisco, CA 94107<br>
-                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                </address>
+                <p style="font-size: 20px; text-align: justify">Exchangerzone, Inc. is the Afghanistan first and largest private financial company founded by Investone Corps, Inc. (ICI) in August 2015. Exchangerzone was registered with Afghanistan Investment Support Agency (AISA) under license number D-80624 as a private corporation in 2016. It was also duly registered with Da Afghanistan Bank (DAB) under license number 423 and license number 201607 to offer financial services. Exchangerzone is a fully-fledged financial company, which offers wide range of quality financial services within Afghanistan and abroad. The company specializes in foreign exchange, money transfer, microfinance, investment schemes, financial consulting and other selected financial services. We are the first private company in Afghanistan outside the banking industry to offer specialized foreign exchange, remittance, microfinance, investment, financial consulting and other selected financial services  </p>
+
             </div>
         </div>
     </div>
 </section>
 
 <footer class="site-footer">
-    <div class="container">
+    <div class="container-fluid">
+        <div class="row" style="background-color: black;">
+            <div class="col-md-6">
+                <img src="photos/ariaPool.png" width="200px" class="pull-left" style="margin-left:50px;"/>
+            </div>
+            <div class="col-md-6 pull-right social-icon">
+                <ul class="pull-right ul-list" style="margin-right: 50px;">
+                    <li class="items-list"><a href="#" class="link-list"><i class="fa fa-facebook"></i></a></li>
+                    <li class="items-list"><a href="#" class="link-list"><i class="fa fa-twitter"></i></a></li>
+                    <li class="items-list"><a href="#" class="link-list"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="items-list"><a href="#" class="link-list"><i class="fa fa-instagram"></i></a></li>
+                    <li class="items-list"><a href="#" class="link-list"><i class="fa fa-youtube"></i></a></li>
+                    <li class="items-list"><a href="#" class="link-list"><i class="fa fa-rss"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row link-list-map">
+            <div class="col-md-2">
+                <ul>
+                    <li><a href="#">Join the ArayPool Panel</a></li>
+                    <li><a href="#">Term of Services</a></li>
+                    <li><a href="#">News Releases</a></li>
+                    <li><a href="#">About AryaPool</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li><a href="#">Subscribe to AryaPool </a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Internship</a></li>
+                    <li><a href="#">Site map</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <table class="table-co pull-right" style="text-align: left; color: #ffffff; font-family:'Oswald'">
+                    <tr>
+                        <td><i class="fa fa-phone"></i>&nbsp;Phone :</td>
+                        <td>+93729238881</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-envelope"></i>&nbsp;Email :</td>
+                        <td>info@aryapool.af</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-map-marker"></i>&nbsp;Office Address :</td>
+                        <td>Karte-4 Kabul, Afghanistan</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-12">
-                &copy; <a href="https://www.cantothemes.com">CantoThemes</a> 2015.
-                <!-- Don't Remove/Edit this. If you remove this you don't have permission to use this template. -->
-                Designed by <a href="">CantoThemes</a>
-                <!-- So Please don't remove this -->
+                <h6>Copyrights(C) 2016-2017. AryaPool, Inc., Afghanistan, (R) All rights reserved</h6>
             </div>
         </div>
     </div>
@@ -441,8 +725,10 @@
 <script src="js/script.js"></script>
 <script type="text/javascript" src="css/slick/slick.min.js"></script>
 <script type="text/javascript" src="css/slick/query.js"></script>
+<script type="text/javascript" src="js/news-event.js"></script>
+
 <!--<script rel="script" type="javascript" src="fade/dist/aos.js"  />-->
-<!--<script src="https://unpkg.com/aos@next/dist/aos.js"></script>-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     $(".slickNormalAdaptive").slick({
         slidesToShow: 1,
@@ -452,6 +738,7 @@
         autoplay: true,
         autoplaySpeed: 2000
     });
+    $('.carousel').carousel();
 </script>
 
 <script>
