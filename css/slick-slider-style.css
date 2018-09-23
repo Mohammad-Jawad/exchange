@@ -1,0 +1,25 @@
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.box100 {
+    height: 100px;
+}
+
+.box200 {
+    height: 200px;
+}
+
+.slick-track {
+    background-color: #484848;
+    color: #f1f1f1;
+}

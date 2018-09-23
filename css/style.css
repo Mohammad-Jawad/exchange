@@ -19,6 +19,7 @@ body {
 }
 p {
   margin-bottom: 26px;
+  font-family: "Rubik";
 }
 a {
   color: #4ecdc4;
@@ -988,7 +989,7 @@ ul.styled-list.list-star li:before {
   display: block;
   width: 80px;
   height: 1px;
-  background-color: #4ecdc4;
+  background-color: #cd2b45;
   margin: 15px auto 20px;
 }
 .c2a p {
@@ -1602,7 +1603,7 @@ footer.site-footer a {
   color: #808080;
 }
 footer.site-footer a:hover {
-  color: #4ecdc4;
+  color: #cd2941;
 }
 @media (min-width: 768px) {
   .navbar-nav > li > a {
@@ -1639,7 +1640,7 @@ footer.site-footer a:hover {
     padding:40px;
     font-size:1.5em;
     font-family: "Oswald";
-    background-color: rgb(214, 20, 4);
+    background-color: #ed505e;
     color: #000;
   }
 
@@ -1661,5 +1662,78 @@ footer.site-footer a:hover {
     padding:0px;
   }
 
+  #footer-side{
+    height:200px;
+  }
+
+  .site-footer .container-fluid .row{
+    background-color: black;
+    width: 100%;
+    padding-top:10px;
+  }
+
+  .ul-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .items-list {
+    float: left;
+  }
+
+  .link-list {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .social-icon ul li i{
+    width: 20px;
+    font-size: 20px;
+  }
+
+  .link-list-map ul{
+    list-style-type: none;
+  }
+
+  .link-list-map ul li{
+    text-align: left;
+  }
+
+  .link-list-map ul li a{
+    color:#ffffff;
+    font-size: 17px;
+  }
+
+  .link-list-map{
+    padding-left:60px;
+    padding-bottom: 20px;
+  }
+  .line{
+    display: block;
+    height: 1px;
+    border: 0;
+    padding: 0;
+  }
+
+  #contact-list{
+    list-style-type: none;
+    font-size: 18px;
+  }
+
+  #contact-list li i{
+    color:#ed1b24;
+  }
+
+  #contact-list ul li a {
+    font-family: "Rubik";
+  }
+
+  .table-co tr td{
+    padding:10px;
+    font-size:18px;
+  }
 
 }
