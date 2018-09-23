@@ -201,6 +201,7 @@ button:before,
 .description{
     font-size: 2rem;
     font-family: 'Oswald';
+    text-align: justify;
 }
 
 ul li{
