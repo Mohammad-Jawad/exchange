@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0 2rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald';
     overflow-x: hidden;
 }
 
@@ -14,8 +14,7 @@ body * {
 }
 
 .maintitle{
-    padding: 60px;
-    text-decoration: underline #f26065;
+    margin-top: 60px;
 }
 
 button,
@@ -25,11 +24,12 @@ button,
     color: white;
     padding: 0.75rem 2rem;
     margin: 0 auto;
-    background-color: #f26065;
+    background-color: #e5282f;
     border: none;
     width: 100%;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-family: 'Oswald';
     text-align: center;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -188,6 +188,7 @@ button:before,
 
 .tabs .content>.heading {
     font-size: 3rem;
+    font-family: 'Oswald';
     margin-bottom: 2rem;
     margin-top: 0px;
     color: red;
@@ -199,8 +200,12 @@ button:before,
 
 .description{
     font-size: 2rem;
+    font-family: 'Oswald';
 }
 
 ul li{
     font-size: 2rem;
+}
+.sideheading{
+    color: red;
 }
